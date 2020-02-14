@@ -11,6 +11,7 @@ import android.widget.Button;
 public class Class11PhysicsR extends AppCompatActivity {
 
     public Button Class11PVideo;
+    private Button neua;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
