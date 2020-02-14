@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.imageslider">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Class12PhysicsVdo"></activity>
+        <activity android:name=".Class12BioR" />
+        <activity android:name=".Class12EnglishR" />
+        <activity android:name=".Class12MathematicsR" />
+        <activity android:name=".Class12ChemistryR" />
+        <activity android:name=".Class12PhysicsR" />
+        <activity android:name=".Class11EngVdo" />
+        <activity android:name=".Class11MathVdo" />
+        <activity android:name=".Class11BioVdo" />
+        <activity android:name=".Class11ChemVdo" />
+        <activity android:name=".TestAllEmbibe" />
+        <activity android:name=".class11PhysicsVdo" />
+        <activity android:name=".Class11BioR" />
+        <activity android:name=".Class11EnglishR" />
+        <activity android:name=".Class11MathematicsR" />
+        <activity android:name=".Class11ChemistryR" />
+        <activity android:name=".Class11PhysicsR" />
+        <activity android:name=".ClassFAQActivity" />
+        <activity android:name=".ClassTESTActivity" />
+        <activity android:name=".ClassNEETActivity" />
+        <activity android:name=".ClassJEEActivity" />
+        <activity android:name=".Class12Activity" />
+        <activity android:name=".Class11Activity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" >
+
+        </activity>
+    </application>
+
+</manifest>

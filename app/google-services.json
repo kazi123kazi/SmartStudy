@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "105178417214",
+    "firebase_url": "https://smart-study-166ff.firebaseio.com",
+    "project_id": "smart-study-166ff",
+    "storage_bucket": "smart-study-166ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:105178417214:android:093c65fa564fbcaa58696f",
+        "android_client_info": {
+          "package_name": "com.example.imageslider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "105178417214-bl8ffja5uncgectbo6vs8g7h8hhtj8sc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.imageslider",
+            "certificate_hash": "b87552dcda2f1020a7e8728176bd8186dfee3871"
+          }
+        },
+        {
+          "client_id": "105178417214-ljs50jgeve0v824h802iessb6j0j4rpo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzFRyQsZfUj1vUoMI7cCvs8jy42w2u7EI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "105178417214-ljs50jgeve0v824h802iessb6j0j4rpo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

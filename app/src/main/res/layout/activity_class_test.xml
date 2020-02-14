@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassTESTActivity">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:text="Practise is the best way to Learn"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        />
+    <TextView
+        android:layout_below="@+id/textview1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Lets Try a Online Test and see your progress."
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="center"/>
+    <Button
+
+        android:id="@+id/class11test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CBSE CLASS 11"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+
+        />
+    <Button
+        android:layout_below="@+id/class11test"
+        android:id="@+id/class12test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="CBSE CLASS 12"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+
+        />
+    <Button
+        android:layout_below="@+id/class12test"
+        android:id="@+id/classJEEtest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="JEE"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+
+        />
+    <Button
+        android:layout_below="@+id/classJEEtest"
+        android:id="@+id/classNEETtest"
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="NEET"
+        android:textSize="20sp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@android:color/white"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:padding="10dp"
+        android:layout_centerInParent="true"
+
+        />
+
+
+</RelativeLayout>

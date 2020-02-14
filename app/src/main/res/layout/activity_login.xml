@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/loogin">
+     <TextView
+         android:layout_marginTop="290dp"
+         android:textSize="40sp"
+         android:textStyle="bold"
+         android:layout_marginStart="50dp"
+         android:id="@+id/logintTitle"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="LOG IN"
+         />
+
+
+    <EditText
+        android:layout_below="@+id/logintTitle"
+        android:id="@+id/login_phone_number_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/input_design"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:hint="Phone Number"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="number"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15sp"
+        />
+    <EditText
+        android:id="@+id/login_password_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/login_phone_number_input"
+        android:background="@drawable/input_design"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="10dp"
+        android:hint="Password"
+        android:textColorHint="@color/colorPrimary"
+        android:inputType="textPassword"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="15sp"
+
+        />
+
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/login_password_input"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@color/colorPrimaryDark"
+        android:padding="10sp"
+        android:textAllCaps="false"
+        android:textSize="18sp"
+        android:text="Log in"
+
+        android:textColor="@android:color/white"
+        />
+
+</RelativeLayout>
